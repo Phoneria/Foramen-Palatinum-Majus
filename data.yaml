@@ -1,0 +1,29 @@
+# parent
+# ├── Images
+# ├── Readme.md
+
+# ├── main.py
+
+# ├── features.json
+# └── data.yaml
+
+Image:
+  path: "Images"
+  extension : ".dcm"
+
+
+
+
+Dataset:
+
+  annotation :
+    "COCO"
+
+  labels:
+      0: back_bumper
+      1: back_door
+      2: back_glass
+      3: back_left_door
+      4: back_left_light
+    
+  download: "https://github.com/ultralytics/ultralytics/blob/main/ultralytics/cfg/datasets/carparts-seg.yaml"
